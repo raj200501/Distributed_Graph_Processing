@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Julia packages
+*.jl.cov
+*.jl.mem
+*.jl.gc
+.manifest
+.deps
+
+# Logs
+logs/
+*.log
+
+# Environments
+.env
+.env.*
+
+# System files
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Unit test / coverage reports
+.coverage
+.coverage.*
+*.cover
+
+# Julia packages
+*.ji
+
+# Data files
+*.csv
+*.tsv
+*.json
+*.parquet
+*.h5
+
+# Plots and figures
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+
+# Misc
+*.swp
+*~
