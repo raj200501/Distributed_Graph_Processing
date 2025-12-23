@@ -61,7 +61,3 @@ Run the smoke test to validate core functionality (data generation, PageRank, No
 ```bash
 ./scripts/verify_env.sh
 ```
-
-## AI Assistance Disclosure
-
-Portions of this repository's maintenance and integration changes were completed with assistance from OpenAI's AI tooling. All changes were reviewed and committed by a human maintainer.
