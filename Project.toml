@@ -1,6 +1,6 @@
 name = "DistributedGraphProcessing"
 uuid = "d9f5c63d-9b89-4f0c-965a-91f96407b7f4"
-authors = ["OpenAI Assistant"]
+authors = ["rajkashikar"]
 version = "0.1.0"
 
 [deps]
