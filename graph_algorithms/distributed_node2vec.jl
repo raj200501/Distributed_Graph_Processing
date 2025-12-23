@@ -1,4 +1,5 @@
 using Distributed, LightGraphs, Random
+using CSV, DataFrames
 
 @everywhere function node2vec_walk(g::SimpleGraph, start_node::Int, walk_length::Int, p::Float64, q::Float64)
     walk = [start_node]
