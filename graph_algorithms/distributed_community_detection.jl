@@ -1,3 +1,4 @@
+include("../utils/simple_graphs_stub.jl")
 using Distributed, LightGraphs, SimpleGraphs, CSV, DataFrames
 
 @everywhere function louvain_method(g::SimpleGraph)

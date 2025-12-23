@@ -1,4 +1,5 @@
 using Distributed, LightGraphs, CSV, DataFrames
+using LinearAlgebra
 
 @everywhere function compute_pagerank(g::SimpleGraph, damping_factor::Float64=0.85, max_iter::Int=100, tol::Float64=1e-6)
     num_nodes = nv(g)

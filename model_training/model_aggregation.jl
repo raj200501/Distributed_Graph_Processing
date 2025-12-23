@@ -1,4 +1,5 @@
 using Distributed
+using Statistics
 
 function model_aggregation(data::Vector{Vector{Float64}})
     aggregated_model = mean(data, dims=1)
